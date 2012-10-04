@@ -26,7 +26,7 @@ import com.jpragma.snmp.SnmpAgent;
 
 public class JvmStatSnmpAgentSpringAnnotated {
   public static void main(String[] args) {
-    ApplicationContext ac = new ClassPathXmlApplicationContext("applicationContextAnnotations.xml");
+    ApplicationContext ac = new ClassPathXmlApplicationContext("applicationContext.xml");
     System.out.println("Hit any key to interrupt");
     try {
       System.in.read();
